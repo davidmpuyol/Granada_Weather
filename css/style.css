@@ -1,0 +1,65 @@
+*{
+    box-sizing:border-box;
+}
+li{
+    cursor:pointer;
+    list-style-type:none;
+    height:25px;
+    border:1px solid black;
+    text-align:left;
+    background-color:lightblue;
+    font-weight:bold;
+}
+ul{
+    margin-top:0;
+    padding:0;
+}
+#contenido{
+    margin-top:16px;
+    display:flex;
+    flex-flow:row nowrap;
+}
+#codigos{
+    flex:1;
+}
+#tiempo{
+    flex:3;
+    display:flex;
+    flex-flow:column nowrap;
+}
+
+#tiempo #tiempo-titulo{
+    text-align:center;
+}
+
+#tiempo #datos-tiempo{
+    background-color:white;
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:stretch;
+}
+
+.prediccion-dia{
+    background:lightseagreen;
+    text-align:center;
+    flex:1;
+    padding:5px;
+    border-right:2px solid black;
+}
+
+.fecha, .estado, .lluvia, .viento{
+    margin:0;
+    padding:0;
+}
+
+.fecha{
+    height: 8%;
+}
+
+.estado{
+    height: 23%;
+}
+
+img{
+    height:43%;
+}
